@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+
+    <img class="logo-animado-conversao" src="assets/logo.gif" alt="logo-animado-conversão">
+
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select name="" id="">
+                <option>R$ Real Brasileiro</option>
+            </select>
+        </label>
+        <label>
+
+            Converter <b>para</b>
+            <select name="" id="selecterValue">
+                <option value="dolar">US$ Dólar americano</option>
+                <option value="euro">€ Euro</option>
+            </select>
+        </label>
+
+        <label>
+            Valor:
+            <input class="valueInput" placeholder="0,00" type="text">
+        </label>
+
+        <button class="convert-button">Converter</button>
+
+        <section>
+
+                <label class="caixa-moedas">
+                    <img src="assets/real.png" alt="logo-brasil-real">
+                    <p>R$</p>
+                </label>
+                
+                <p class="valueResultBefore">R$ 0,00</p>
+           
+
+            <img class="Vetor-indicativo" src="assets/Arrow.png" alt="Vetor-indicativo">
+
+            
+                <label class="caixa-moedas2">
+                    <img class ="imgResultAfter" src="assets/Dolar.png" alt="logo-U.S.A.-dolar">
+                    <p class="currencyText">US $</p>
+                </label>
+
+                <p class="valueResultAfter">US $ 0,00</p>
+
+        </section>
+
+    </main>
+
+
+</body>
+
+<script src="script.js"></script>
+
+
+</html>
